@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Caio Dumont">
+        <meta name="description" content="Informações de contato da Pequena Pizzaria.">
+        <title>Contate-nos - PP</title>
+        <link rel="shortcut icon" href="../imgs/pizza.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Contate-nos</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="/html/10-html-project/">Home</a></li>
+                    <li><a href="/html/10-html-project/#sobre">Sobre <abbr title="Pequena Pizzaria">PP</abbr></a></li>
+                    <li><a href="/html/10-html-project/#menu">Nosso menu</a></li>
+                    <li><a href="hours.html">Horário de funcionamento</a></li>
+                </ul>
+            </nav>
+
+            <figure>
+                <img src="../imgs/pizza-close-up.jpg" alt="Pizzas da Pequena Pizzaria" title="Pizzas prontas para comer!" width="400" height="260">
+
+                <figcaption>Pizzas da Pequena Pizzaria</figcaption>
+            </figure>
+        </header>
+
+        <hr>
+
+        <main>
+            <section>
+                <h2>Nosso formulário de contato</h2>
+
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Envie-nos uma mensagem</legend>
+
+                        <p>
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+                        </p>
+
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Seu email" required>
+                        </p>
+
+                        <p>
+                            <label for="mensagem">Sua mensagem:</label>
+                            <br>
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
+                        </p>
+                    </fieldset>
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Reiniciar</button>
+                </form>
+            </section>
+
+            <section>
+                <h2>Nossa localização</h2>
+
+                <address>
+                    555 Pizza Temptation Lane, Suite P <br>
+                    São Paulo, SP 55555-555
+
+                    <br><br>
+
+                    Telefone: <a href="tel:+12345678901s">55-55555-5555</a>
+                </address>
+            </section>
+        </main>
+
+        <hr>
+
+        <footer>
+            <p>Copyright &copy; Pequena Pizzaria</p>
+        </footer>
+    </body>
+</html>
